@@ -13,7 +13,7 @@ setup(name = "mecab-python",
 			["MeCab_wrap.cxx",],
 			include_dirs=[r"C:\Program Files (x86)\MeCab\sdk"],
 			library_dirs=[r"C:\Program Files (x86)\MeCab\sdk"],
-			libraries=cmd2["libmecab"])
+			libraries=["libmecab"])
 			])
 ```
 
